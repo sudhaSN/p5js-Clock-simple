@@ -1,12 +1,9 @@
 var sound;
-function preload() {
-   sound = loadSound("Thoughts.wav")
-}
 
 function setup() {
   createCanvas(1500, 857);
   angleMode(DEGREES);
-  sound.loop();
+ 
 }
 function draw() {
   background(0);
